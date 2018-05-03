@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 const publicPath = path.resolve(__dirname, '..', 'public');
-const port = 3000;
+const port = process.env.PORT || 3000; // For Heroku
 
 app.use(express.static(publicPath));
 app.get('*', (req, res) => {
