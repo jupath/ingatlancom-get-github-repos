@@ -1,0 +1,17 @@
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.userdata {
+  display: flex;
+}
+
+.userdata__image {
+  height: 130px;
+  width: auto;
+}

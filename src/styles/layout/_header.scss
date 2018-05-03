@@ -1,0 +1,33 @@
+.header {
+  background-color: $header-bg-color;
+  color: white;
+}
+
+.header__searchform {
+  .form-group {
+    flex-grow: 1;
+    margin-bottom: 0;
+    .form-control {
+      width: 100%;
+    }
+  }
+
+  input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  input,
+  button {
+    height: 50px;
+  }
+}
+
+.header__error {
+  height: 30px;
+}
